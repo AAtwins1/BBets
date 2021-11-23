@@ -83,12 +83,21 @@ Here, to make the odds more fair we had to change the odds and found that having
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
 
+```{r}
+results<- as.numeric(1:200)
+for(i in results){
+  results[i] <- BrLw(29, 2, 637)
+}
+t.test(results)
 
+s.results = sort(results)
 
+hist(results)
 
+hist(s.results)
+```
 
-
-
+To make the bet fair for all the students, the class size would need to be decreased to 29 students in total. This makes sense because by the decreasing the class size, there will be less of the same birthdays. 
 
 # Discussion and Conclusion
 
