@@ -102,4 +102,4 @@ To make the bet fair for all the students, the class size would need to be decre
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
-
+What we did in this problem was a re sampling approach to answer several questions to the problem given. We discovered that with a BrLw function we could change the default and discover what the mean or average would be if we changed the odds function or class size. Throughout this entire assignment we tested out different odds and class sizes to figure out what amounts would make the bet more fair. 
